@@ -1,4 +1,4 @@
-import { supabase } from '@/app/lib/supabaseClient'
+import { supabase } from '../../lib/supabaseClient'
 export async function POST(request) {
   try {
     const { twitterLink } = await request.json()
